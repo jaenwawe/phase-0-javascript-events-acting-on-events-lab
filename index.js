@@ -27,6 +27,7 @@ document.addEventListener("keydown", function(event) {
   
   function moveDodgerRight() {
     const leftNumbers= dodger.style.left.replace("px", "");
+    
     const left = parseInt(leftNumbers, 10);
     const rightNumbers = leftNumbers - dodger.style.width.replace("px", "") ;
     const rightMax =  parseInt(rightNumbers, 10);
